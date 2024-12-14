@@ -32,6 +32,7 @@ class AnotherPage extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 10.0),
                             child: FloatingActionButton(
+                              heroTag: null,
                               onPressed: () {
                                 manager.updateState('counter2',
                                     manager.getState<int>('counter2') + 1);
@@ -43,6 +44,7 @@ class AnotherPage extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 10.0),
                             child: FloatingActionButton(
+                              heroTag: null,
                               onPressed: () {
                                 manager.updateState('counter2',
                                     manager.getState<int>('counter2') - 1);
